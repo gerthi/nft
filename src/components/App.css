@@ -1,1 +1,28 @@
 /* Styles go here */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#nft_front {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+nav {
+  background: red;
+}
+
+main {
+  background: aliceblue;
+  flex: 1;
+  text-align: center;
+}
+
+footer {
+  background: black;
+  color: white;
+}
