@@ -14,12 +14,16 @@
 
 nav {
   background: red;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
 }
 
 main {
   background: aliceblue;
   flex: 1;
   text-align: center;
+  padding: 12px;
 }
 
 footer {
